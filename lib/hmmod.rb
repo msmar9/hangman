@@ -17,7 +17,6 @@ module HMMod
   end
 
   def save_game(save_name, game_data)
-    # Game data has the structure W O R D | g u e s s e s
     address = '/home/miquel/repos/hangman/saves/' + 'savefile_' + save_name.gsub(' ','_') + '.txt'
     if File.exist?(address)
       File.delete(address)

@@ -7,7 +7,7 @@ Hangman project from The Odin Project's curriculum
 - Displays:
   - Word with uppercase discovered characters and _'s
   - Wrongly guessed characters
-  - Example: (bicycle) -> BI_Y_LE // a d f g h // 4 guesses remaining
+  - Example: (bicycle) -> BI_Y_LE // a d // 1 guess(es) remaining
 - Game saving
 
 ## Game flow

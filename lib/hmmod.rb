@@ -18,7 +18,7 @@ module HMMod
 
   def save_game(save_name, game_data)
     # Game data has the structure W O R D | g u e s s e s
-    address = '../saves/' + save_name + '.txt'
+    address = '/home/miquel/repos/hangman/saves/' + 'savefile_' + save_name.gsub(' ','_') + '.txt'
     if File.exist?(address)
       File.delete(address)
     end
@@ -34,6 +34,4 @@ include HMMod
 #p valid_input?('r')
 #p valid_input?('5')
 #p ask_input
-#save_game('test', 'T _ S T S | a i o u')
-#tst = File.open('./../saves/test.txt',"r")
-#puts tst.read
+#save_game('test save function', 'T _ S T S | a i o u r')

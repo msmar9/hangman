@@ -29,7 +29,7 @@ module HMMod
 end
 
 # Testing
-include HMMod
+#include HMMod
 #p WORD_LIST[0,21]
 #p valid_input?('r')
 #p valid_input?('5')
